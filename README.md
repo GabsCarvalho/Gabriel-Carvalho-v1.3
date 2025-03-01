@@ -60,7 +60,7 @@ Este é um portfólio pessoal desenvolvido com HTML, CSS e JavaScript para exibi
 ## 🚀 Como Executar o Projeto
 Para visualizar o projeto localmente, abra o navegador e acesse:
 ```
-[http://localhost:8000/index.html](https://gabscarvalho.github.io/Gabriel-Carvalho-v1.3/)
+https://gabscarvalho.github.io/Gabriel-Carvalho-v1.3/
 ```
 ---
 
