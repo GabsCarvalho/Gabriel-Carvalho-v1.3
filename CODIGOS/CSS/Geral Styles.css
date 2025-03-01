@@ -1,0 +1,178 @@
+/* Começo */
+@import url(https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'inter', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 100px;
+    background-color: #0074ae;
+}
+
+section{
+    display: grid;
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-right: 10px;
+    row-gap: 10px;
+}
+
+a{
+    overflow: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* KEYFRAMES */
+
+/* DEGRADE */
+
+@keyframes degradee {
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position: 400%;
+    }
+}
+
+/* IMAGEM PULSANDO */
+
+@keyframes aumentar {
+    0%{
+        transform: scale(1);;
+    }
+
+    100%{
+        transform: scale(1.08);
+    }
+}
+
+/* SKILLS BAR */
+
+@keyframes powerplataform {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 50%;
+    }
+}
+@keyframes HTML {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 70%;
+    }
+}
+@keyframes PYTHON {
+    0%{
+        width: 40%;
+    }
+
+    100%{
+        width: 90;
+    }
+}
+@keyframes JAVASCRIPT {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 20%;
+    }
+}
+
+/* MUDAR DE COLORAÇÃO NO MODO CLARO */
+
+/* Tema Claro (Padrão) */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --card-bg: rgba(0, 0, 0, 0.1);
+    --guia-bg: #00000013;
+    --projeto-bg: #00000013;
+    --projeto-title-color: #000000;
+    --botao-bg: #6e6e6e56;
+    --botao-text: #000000;
+    --text-b: #0074ad;
+    --text-b-hover: #0077e6;
+}
+
+/* Tema Escuro */
+.dark-mode {
+    --bg-color: #001020;
+    --text-color: #ffffff;
+    --card-bg: rgba(255, 255, 255, 0.1);
+    --guia-bg: #ffffff13;
+    --projeto-bg: #ffffff13;
+    --projeto-title-color: #ffffff;
+    --botao-bg: #ffffff56;
+    --botao-text: #ffffff;
+    --text-b: #00aaff;
+    --text-b-hover: #00ccff;
+}
+
+/* Aplicação das variáveis */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+.card, .cardfu {
+    background-color: var(--card-bg);
+}
+
+.guiabox {
+    background-color: var(--guia-bg);
+}
+
+.listaprojetos .cardprojetos .cardprojetoslink {
+    background-color: var(--projeto-bg);
+}
+
+.listaprojetos .cardprojetoslink .tituloprojeto {
+    color: var(--projeto-title-color);
+}
+
+.botoescontato {
+    background-color: var(--botao-bg);
+    color: var(--botao-text);
+}
+
+.conteudo2 .texto p b{
+    color: var(--text-b);
+    transition: 1s;
+}
+
+.conteudo2 .texto p b:hover{
+    color: var(--text-b-hover);
+    transition: 0.3s;
+}
+
