@@ -8,7 +8,7 @@ Este é um portfólio pessoal desenvolvido com HTML, CSS e JavaScript para exibi
 - ✅ **Botão de mudança de tema funcional**
 - ✅ **Versão em inglês implementada**
 - ⚠️ **Necessário simplificar o código, especialmente na responsividade**
-- ⚠️ **Adicionação de novos projetos pendente**
+- ⚠️ **Necessário a adição de novos projetos pendente**
 
 ## 🚀 Tecnologias Utilizadas
 - **HTML5**
